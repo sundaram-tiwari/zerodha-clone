@@ -108,6 +108,8 @@ h1{
 p{
     margin-bottom: 15px;
     line-height: 1.8;
+    font-size: 16px;
+    color: #666;
 }
 
 .text-center{
@@ -138,7 +140,7 @@ p{
     align-items: center;
 }
 
-.eco-container{
+.container{
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -164,6 +166,12 @@ p{
     margin: 0px 0px 30px;
 }
 
+h2{
+    color: #424242;
+    font-size: 32px;
+    margin: 0px 0px 30px;
+}
+
 .eco-text h3{
     color: #424242;
     font-size: 20px;
@@ -180,7 +188,7 @@ p{
     margin: 16px 15px 15px 15px;
 }
 
-.eco-link-text a{
+.link-text{
     color: #387ed1;
     font-size: 16px;
     font-weight: 600;
@@ -188,11 +196,88 @@ p{
     margin: 0px 12px;
 }
 
-.eco-link-text a i{
+.link-text i{
     font-size: 14px;
     font-weight: 600;
 }
 
 .lower-eco {
     margin: 60px 0px;
+}
+
+.pricing{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* 
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+} */
+
+.pricing-info{
+    width: 40%;
+}
+
+.pricing-grid{
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+}
+
+.pricing-box{
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+
+.pricing-box img{
+    width: 120px;
+}
+
+.pricing-box p{
+    font-size: 10px;
+    margin: 0;
+    margin-top: 25px;
+    color: #666;
+    line-height: 16px;
+    position: relative;
+    left: -20px;
+}
+
+.see-pricing-link{
+    text-align: left;
+    width: 90%;
+    margin: 5px 0px 10px 25px;
+}
+
+.varsity-section{
+    display: flex;
+    justify-content: center;
+}
+
+.img-view {
+    width: 38%;
+}
+
+.info-text{
+    width: 50%;
+}
+
+.img-view a img{
+    width: 100%;
+}
+
+.space-top{
+    margin: 30px 0px 15px ;
+}
+
+.margin-left{
+    margin: 0;
+}
+
+.kite-container{
+    margin-top: 100px;
 }
